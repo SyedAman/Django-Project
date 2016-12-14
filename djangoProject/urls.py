@@ -18,5 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    # point root URLconf at polls.url URLconf
     url(r'^polls/', include('polls.urls')),
 ]
