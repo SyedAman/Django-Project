@@ -90,4 +90,9 @@ ENV/
 # Rope project settings
 .ropeproject
 
+<<<<<<< HEAD
 *.vscode
+=======
+#VS Code
+*.vscode
+>>>>>>> ec4ee02faa85244caf6283564848f19e3563c69b
