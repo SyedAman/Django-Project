@@ -20,4 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # point root URLconf at polls.url URLconf
     url(r'^polls/', include('polls.urls')),
+    # point root URLconf at URLconf for home
+    url(r'^home/', include ('home.urls')),
 ]
