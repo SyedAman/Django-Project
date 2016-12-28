@@ -21,5 +21,6 @@ urlpatterns = [
     # point root URLconf at polls.url URLconf
     url(r'^polls/', include('polls.urls')),
     # point root URLconf at URLconf for home
-    url(r'^home/', include ('home.urls')),
+    url(r'^home/', include('home.urls')),
+    url('', include('home.urls'))
 ]
